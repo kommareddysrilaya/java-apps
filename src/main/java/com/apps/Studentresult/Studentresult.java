@@ -6,10 +6,24 @@ public class Studentresult {
 	private int mathsmarks;
 	private int physicsmarks;
 	private int chemistrymarks;
-	total=mathsmarks+physicsmarks+chemistrymarks;
-	avg=total/3;
+	private double total;
+	private double avg;
 
-	
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+	public double getAvg() {
+		return avg;
+	}
+
+	public void setAvg(double avg) {
+		this.avg = avg;
+	}
 
 	public int getId() {
 		return id;
@@ -54,12 +68,8 @@ public class Studentresult {
 	@Override
 	public String toString() {
 		return "Studentresult [id=" + id + ", studentName=" + studentName + ", mathsmarks=" + mathsmarks
-				+ ", physicsmarks=" + physicsmarks + ", chemistrymarks=" + chemistrymarks + "]";
+				+ ", physicsmarks=" + physicsmarks + ", chemistrymarks=" + chemistrymarks + ", total=" + total
+				+ ", avg=" + avg + "]";
 	}
 
-
-
-	
-		
-	}
-
+}
