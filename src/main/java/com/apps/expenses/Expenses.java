@@ -73,6 +73,5 @@ public class Expenses {
 		return "Expenses [id=" + id + ", item=" + item + ", quantity=" + quantity + ", unitPrice=" + unitPrice
 				+ ", totalPrice=" + totalPrice + ", date=" + date + ", active=" + active + "]";
 	}
-	
 
 }
