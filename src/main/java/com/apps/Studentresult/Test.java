@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Test {
 	public static void main(String[] args) {
+		//creating or saving objects 
 		Studentresult s1= new Studentresult();
 		s1.setId(10);
 		s1.setStudentName("laya");
@@ -119,7 +120,7 @@ public class Test {
 		studentresultList.add(s9);
 		studentresultList.add(s10);
 		
-		
+		//reading all students
 		for(Studentresult sr:studentresultList) {
 			System.out.println(sr);
 		}
